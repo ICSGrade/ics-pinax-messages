@@ -73,8 +73,8 @@ Django / Python | 3.6 | 3.7 | 3.8 | 3.9
 
 To install pinax-messages:
 
-```shell
-    $ pip install pinax-messages
+```requirements.txt
+git+git://github.com/ICSGrade/ics-pinax-messages@be531d2390f5c2ed6a00931901ca022c59590fec#egg=pinax-messages
 ```
 
 Add `pinax.messages` to your `INSTALLED_APPS` setting:
